@@ -72,7 +72,7 @@ body {
 }
 .text{
     margin: auto;
-    width: 250px;
+    width: 80%;
     color: rgb(196, 95, 95);
 }
 a{
@@ -80,7 +80,8 @@ a{
 }
 .whatsapp {
   padding: 1rem;
-  color: green;
+  color: #fff;
+  background-color: green;
   border: 1px solid green;
   /* width: 200px; */
   height: 20px;
@@ -88,7 +89,7 @@ a{
   align-items: center;
   justify-content: space-around;
   margin-bottom: 2rem;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 .form{
     width: 100%;
@@ -109,6 +110,7 @@ a{
 
 .row-form input{
     border: none;
+    width: 70%;
     outline: 0;
 }
 
