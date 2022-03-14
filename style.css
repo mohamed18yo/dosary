@@ -4,6 +4,7 @@ body {
 
 * {
   box-sizing: border-box;
+  font-family: Tajawal;
 }
 .contaner{
     width: 100%;
@@ -42,7 +43,7 @@ body {
   justify-content: center;
   /* color: #fff; */
   border-radius: 6px;
-  border: 1px solid;
+  border: 1px solid #7c712c;
   padding: .5rem;
   /* background-color: rgb(151, 68, 68); */
 }
@@ -63,44 +64,71 @@ body {
 .center-section {
   height: 100px;
   width: 100%;
-  background-color: rgb(196, 95, 95);
+  background-color: #7c712c;
   display: flex;
   flex-direction: row;
   color: #f8faf9;
-  margin-top: 1.5rem;
+  margin: .7rem 0;
   justify-content: space-around;
+  text-align: center;
+  /* font-size: 16px; */
+  /* align-items: center; */
 }
 .text{
     margin: auto;
     width: 80%;
-    color: rgb(196, 95, 95);
+    color: #fff;
+}
+.def{
+  color: #00249f;
+}
+.bck{
+  width: 100%;
+  height: 350px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  url(./img/architect.jpg);
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 a{
     text-decoration: none;
+}
+.section-title{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 95%;
+  margin: auto;
 }
 .whatsapp {
   padding: 1rem;
   color: #fff;
   background-color: green;
   border: 1px solid green;
-  /* width: 200px; */
+  width: 250px;
   height: 20px;
   display: flex;
   align-items: center;
   justify-content: space-around;
   margin-bottom: 2rem;
+  border-radius: 7px;
+  margin: auto;
   /* background-color: #fff; */
 }
 .form{
-    width: 100%;
+    width: 95%;
+    margin: auto;
 }
 
 .row-form{
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 1rem 0;
+    /* margin: auto; */
     font-size: 16px;
 }
 
@@ -112,11 +140,13 @@ a{
     border: none;
     width: 70%;
     outline: 0;
+    border-radius: 7px;
+    padding: .2rem;
+    border: 1px solid #dbdbdb;
 }
 
 .send-btn{
     width: 100px;
-    height: 30px;
     border: none;
     font-size: 22px;
     background-color: green;
@@ -126,4 +156,6 @@ a{
     align-items: center;
     justify-content: center;
     padding: 1rem;
+    margin: auto;
+    height: 38px;
 }
