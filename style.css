@@ -52,18 +52,23 @@ body {
 .hero-section {
   display: flex;
   align-items: center;
-  justify-content: center;
   background-color: #fafcfc;
   background-repeat: no-repeat;
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-  url(./img/1899342.jpg);
-  background-position: center; */
-  /* border: 1px solid red; */
   height: 450px;
   width: 100%;
-  /* margin-top: -200px; */
-}
+  position: relative; 
 
+ 
+}
+.hero-titel{
+  position: absolute;
+  /* right: 2rem; */
+  color: #fff;
+  padding: 1rem;
+  font-size: 22px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  /* text-align: start; */
+}
 .center-section {
   height: 100px;
   width: 100%;
